@@ -1,0 +1,98 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #222222;
+  color: white;
+}
+
+.title{
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+}
+
+.text{
+  max-width: 750px;
+    text-align: center;
+    margin: auto;
+
+}
+
+h2{
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 500;
+  color: white;
+}
+
+.box{
+  margin: auto;
+  background: #282828;
+  text-align: center;
+}
+
+.box h3{
+  text-transform: uppercase;
+  font-weight: 500;
+  color: white;
+}
+
+.box div {
+  border: 0;
+  background: none;
+  display: inline-block;
+  margin: 25px 0px;
+  width: 300px;
+  border: 2px solid #008811;
+  outline: none;
+  border-radius: 24px;
+  transition-duration: 0.25s;
+}
+
+.box div:hover{
+  background: #008811;
+  width: 350px;
+}
+
+.box img{
+  border-radius: 24px;
+  margin: 0px;
+}
+
+.box p{
+    margin: 0px 0px 15px 0px;
+    padding: 10px;
+    width: 250px;
+    display: inline-block;
+}
+
+a.button{
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+
+  text-decoration: none;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  background: none;
+  display: block;
+  margin:  25px auto;
+  width: 300px;
+  border: 2px solid #008811;
+  outline: none;
+  border-radius: 24px;
+  transition-duration: 0.25s;
+}
+
+a.button:hover{
+  background: #008811;
+  width: 350px;
+}
+
+footer{
+  color: gray;
+  padding: 7px;
+  margin: 150px 0 0 0;
+}
