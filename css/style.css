@@ -1,9 +1,10 @@
 body{
-  margin: 0;
+  margin: auto;
   padding: 0;
   font-family: sans-serif;
   background: #222222;
   color: white;
+  width: 80%;
 }
 
 .title{
@@ -14,8 +15,8 @@ body{
 
 .text{
   max-width: 750px;
-    text-align: center;
-    margin: auto;
+  text-align: center;
+  margin: auto;
 
 }
 
@@ -26,16 +27,24 @@ h2{
   color: white;
 }
 
+h4{
+  text-align: center;
+  color: white;
+  margin: 0 0 10pt 0;
+}
+
 .box{
-  margin: auto;
+  margin: 1% auto;
   background: #282828;
   text-align: center;
   color: white;
+  padding: 1pt 0 0 0;
 }
 
 .box h3{
   text-transform: uppercase;
   font-weight: 500;
+  margin: 10pt 0 5pt 0;
 }
 
 .box a {
@@ -43,7 +52,7 @@ h2{
   background: none;
   display: inline-block;
   margin: 25px 0px;
-  width: 300px;
+  width: 20%;
   border: 2px solid #008811;
   outline: none;
   border-radius: 24px;
@@ -54,7 +63,7 @@ h2{
 
 .box a:hover{
   background: #008811;
-  width: 350px;
+  width: 25%;
 }
 
 .box img{
@@ -81,7 +90,7 @@ a.button{
   background: none;
   display: block;
   margin:  25px auto;
-  width: 300px;
+  width: 20%;
   border: 2px solid #008811;
   outline: none;
   border-radius: 24px;
@@ -90,7 +99,7 @@ a.button{
 
 a.button:hover{
   background: #008811;
-  width: 350px;
+  width: 25%;
 }
 
 footer{
