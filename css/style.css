@@ -30,15 +30,15 @@ h2{
   margin: auto;
   background: #282828;
   text-align: center;
+  color: white;
 }
 
 .box h3{
   text-transform: uppercase;
   font-weight: 500;
-  color: white;
 }
 
-.box div {
+.box a {
   border: 0;
   background: none;
   display: inline-block;
@@ -48,9 +48,11 @@ h2{
   outline: none;
   border-radius: 24px;
   transition-duration: 0.25s;
+  color: white;
+  text-decoration: none;
 }
 
-.box div:hover{
+.box a:hover{
   background: #008811;
   width: 350px;
 }
